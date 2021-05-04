@@ -8,3 +8,7 @@ Thin layer for standard network handling
 
 - Wrapper around Foundation's `URLSession` and all of its settings
 - WIP: Combine wrapper for chained requests 
+
+# Documentation
+
+All documentation was generated with Jazzy as explained in this article and can be found [here](https://geekingwithmauri.github.io/MauriNet/)
