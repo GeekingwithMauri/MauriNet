@@ -11,4 +11,4 @@ Thin layer for standard network handling
 
 # Documentation 🔎📜
 
-To check the complete documentation, head over [here](https://geekingwithmauri.github.io/MauriNet/) 
+All the documentation was generated with [Jazzy](https://github.com/realm/jazzy) as explained in [this article](https://geekingwithmauri.com/swift/documentation-in-practice.html) and can be found [here](https://geekingwithmauri.github.io/MauriNet/)
