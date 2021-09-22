@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MauriNet",
     platforms: [
-        .iOS(.v10),
+        .iOS(.v13),
         .macOS(SupportedPlatform.MacOSVersion.v10_15)
     ],
     products: [

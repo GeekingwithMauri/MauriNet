@@ -44,7 +44,7 @@ public enum NetworkError: Int, Error, CaseIterable {
     /// Indicates a request conflict with current state of the target reSource.
     ///
     ///  Conflicts are most likely to occur in response to a PUT request. For example, you may get a 409 response when uploading a file which is older than the one already on the server resulting in a version control conflict. Source: [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409)
-    case conflictOnReSource = 409
+    case conflictOnResource = 409
 
     /// Indicates that access to the target reSource has been denied.
     ///
@@ -104,7 +104,7 @@ public enum NetworkError: Int, Error, CaseIterable {
             return "Server took too long to reply"
         case .cancelled:
             return "Request was cancelled"
-        case .conflictOnReSource:
+        case .conflictOnResource:
             return "There's an internal conflict with the requested reSource"
         case .preconditionFailed:
             return "Precondition failed for this request"
